@@ -10,7 +10,7 @@ function App() {
             <img width="38" src="./img/pizza-logo.svg" alt="Pizza logo" />
             <div>
               <h1>React Pizza</h1>
-              <p>самая вкусная пицца во вселенной</p>
+              <p>самая вкусная пицца в мире</p>
             </div>
           </div>
           <div class="header__cart">

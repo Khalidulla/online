@@ -7,6 +7,8 @@ import PizzaBlock from './components/PizzaBlock';
 
 import './scss/app.scss';
 
+function Pizza() {}
+
 function App() {
   return (
     <div class="wrapper">

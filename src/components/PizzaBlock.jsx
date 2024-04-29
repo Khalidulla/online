@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React from "react";
 function PizzaBlock({title, price}){
-const [pizzaCount, setPizzaCount ] = useState(0)
+const [pizzaCount, setPizzaCount ] = React.useState(0)
 
 const onClickAdd = () => {
-  setPizzaCount();
+  setPizzaCount(pizzaCount + 1);
 }
 
     return (

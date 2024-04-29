@@ -1,5 +1,9 @@
+import React from "react";
+
 function Categories() {
-    return (
+  const [] = React.useState();
+
+  return (
       <div className="categories">
         <ul>
           <li className="active">Все</li>
